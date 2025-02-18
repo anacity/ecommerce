@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+:root {
+    --white: #FFFFFF;
+    --lilac:  #DCCCFF;
+    --pink: #E07BE0;
+    --darkpink: #932F6D;
+    --darkpurple: #420039;
+}
+
+html {
+    font-family: "Inter", serif;
+    font-weight: 500;
+}
+
+h1 {
+    font-family: "Poppins", serif;
+}

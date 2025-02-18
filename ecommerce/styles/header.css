@@ -1,0 +1,55 @@
+.header {
+    max-width: 80rem;
+    width: 100%;
+    padding: 1.25rem 2rem;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar {
+    display: flex;
+    gap: 2rem;
+}
+
+.navbar > a {
+    color: black;
+    padding-bottom: 0.2rem;
+    border-bottom: 2px solid transparent;
+    transition: border-color 1s ease;
+
+    &:hover{
+        border-color: black;
+    }
+}
+
+#shopping-bag {
+    background-color: transparent;
+    border: none;
+    margin-right: 1rem;
+    cursor: pointer;
+
+    &:hover {
+        animation: balancar 0.6s ease-in-out;
+    }
+}
+
+@keyframes balancar {
+    0% {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(-15deg);
+    }
+    50% {
+        transform: rotate(15deg);
+    }
+    75% {
+        transform: rotate(-10deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
